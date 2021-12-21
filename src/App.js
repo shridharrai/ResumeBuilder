@@ -16,15 +16,17 @@ function App() {
         </Grid>
         <Grid item xs>
           <Router>
-          <Header></Header>
-            <Switch>
-              <Route path='/portfolio'>
-                <Portfolio></Portfolio>
-              </Route>
-              <Route path='/'>
-                <Resume></Resume>
-              </Route>
-            </Switch>
+            <Header></Header>
+            <div className='main_content container_shadow'>
+              <Switch>
+                <Route path='/portfolio'>
+                  <Portfolio></Portfolio>
+                </Route>
+                <Route path='/'>
+                  <Resume></Resume>
+                </Route>
+              </Switch>
+            </div>
           </Router>
           <Footer></Footer>
         </Grid>
