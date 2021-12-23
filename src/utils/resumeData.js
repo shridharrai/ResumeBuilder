@@ -2,6 +2,8 @@ import React from "react";
 import FacebookIcon from '@material-ui/icons/Facebook'
 import TwitterIcon from '@material-ui/icons/Twitter'
 import GitHubIcon from '@material-ui/icons/GitHub'
+import WebOutlined from '@material-ui/icons/WebOutlined'
+import AssignmentOutlined from '@material-ui/icons/AssignmentOutlined'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
 
 export default {
@@ -71,5 +73,42 @@ export default {
             date: '2018 - Present',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
         },
+    ],
+
+    services: [
+        {
+            title: 'Web Development',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+            icon: <WebOutlined />
+        },
+        {
+            title: 'Web Development',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+            icon: <AssignmentOutlined />
+        },
+        {
+            title: 'Web Development',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+            icon: <WebOutlined />
+        }
+    ],
+
+    skills: [
+        {
+            title: 'FRONT-END',
+            description: ["Javascript", "ReactJS", "TypeScript", "Angular 2+", "Bootstrap", "Material UI"]
+        },
+        {
+            title: 'BACK-END',
+            description: ["Java", "Spring", "Hibernate", "NodeJS"]
+        },
+        {
+            title: 'DATABASES',
+            description: ["My SQL", "Postgresql", "Firebase"]
+        },
+        {
+            title: 'SOURCE CONTROL',
+            description: ["Git", "Github"]
+        }
     ]
 }
