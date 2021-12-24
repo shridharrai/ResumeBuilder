@@ -5,6 +5,8 @@ import GitHubIcon from '@material-ui/icons/GitHub'
 import WebOutlined from '@material-ui/icons/WebOutlined'
 import AssignmentOutlined from '@material-ui/icons/AssignmentOutlined'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
+import YouTube from '@material-ui/icons/YouTube'
+import Language from '@material-ui/icons/Language'
 
 export default {
     name: 'Shridhar Rai',
@@ -109,6 +111,108 @@ export default {
         {
             title: 'SOURCE CONTROL',
             description: ["Git", "Github"]
+        }
+    ],
+
+    projects: [
+        {
+            tag: "React",
+            images: [
+                "https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?size=626&ext=jpg",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaaRRWxLqZfEeIag_NQ3mzAUrqb-XP9_T8PBvkDg_jprLGKbybIKJFSknMxnwyOJ8xlbU&usqp=CAU"
+            ],
+            title: "React Project 1",
+            caption: "A short description",
+            description: "This is my project description. Please fill it in.",
+            links: [
+                {
+                    link: "https://www.goggle.com",
+                    icon: <YouTube />
+                },
+                {
+                    link: "https://www.goggle.com",
+                    icon: <GitHubIcon />
+                },
+                {
+                    link: "https://www.goggle.com",
+                    icon: <Language />
+                }
+            ]
+        },
+
+        {
+            tag: "React",
+            images: [
+                "https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?size=626&ext=jpg",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaaRRWxLqZfEeIag_NQ3mzAUrqb-XP9_T8PBvkDg_jprLGKbybIKJFSknMxnwyOJ8xlbU&usqp=CAU"
+            ],
+            title: "React Project 2",
+            caption: "A short description",
+            description: "This is my project description. Please fill it in.",
+            links: [
+                {
+                    link: "https://www.goggle.com",
+                    icon: <YouTube />
+                },
+                {
+                    link: "https://www.goggle.com",
+                    icon: <GitHubIcon />
+                },
+                {
+                    link: "https://www.goggle.com",
+                    icon: <Language />
+                }
+            ]
+        },
+
+        {
+            tag: "Angular",
+            images: [
+                "https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?size=626&ext=jpg",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaaRRWxLqZfEeIag_NQ3mzAUrqb-XP9_T8PBvkDg_jprLGKbybIKJFSknMxnwyOJ8xlbU&usqp=CAU"
+            ],
+            title: "Angular Project 1",
+            caption: "A short description",
+            description: "This is my project description. Please fill it in.",
+            links: [
+                {
+                    link: "https://www.goggle.com",
+                    icon: <YouTube />
+                },
+                {
+                    link: "https://www.goggle.com",
+                    icon: <GitHubIcon />
+                },
+                {
+                    link: "https://www.goggle.com",
+                    icon: <Language />
+                }
+            ]
+        },
+
+        {
+            tag: "Java",
+            images: [
+                "https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?size=626&ext=jpg",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaaRRWxLqZfEeIag_NQ3mzAUrqb-XP9_T8PBvkDg_jprLGKbybIKJFSknMxnwyOJ8xlbU&usqp=CAU"
+            ],
+            title: "Java Project 1",
+            caption: "A short description",
+            description: "This is my project description. Please fill it in.",
+            links: [
+                {
+                    link: "https://www.goggle.com",
+                    icon: <YouTube />
+                },
+                {
+                    link: "https://www.goggle.com",
+                    icon: <GitHubIcon />
+                },
+                {
+                    link: "https://www.goggle.com",
+                    icon: <Language />
+                }
+            ]
         }
     ]
 }
