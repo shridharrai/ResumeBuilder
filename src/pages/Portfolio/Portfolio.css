@@ -23,8 +23,17 @@
     outline-width: 0px !important;
 }
 
+/* .customCard:hover {
+    transform: scale(1.05) !important;
+} */
+
 .customCard .customCard_image {
     height: 140px;
+}
+
+.customCard .customCard_image:hover {
+    transform: scale(1.1) !important;
+    transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95) !important;
 }
 
 .customCard .customCard_title {
@@ -46,6 +55,7 @@
 
 .projectDialog .projectDialog_desc {
     margin-top: 10px !important;
+    white-space: pre-line;
 }
 
 .projectDialog .projectDialog_actions {
