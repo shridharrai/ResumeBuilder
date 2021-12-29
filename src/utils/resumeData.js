@@ -5,7 +5,6 @@ import GitHubIcon from '@material-ui/icons/GitHub'
 import WebOutlined from '@material-ui/icons/WebOutlined'
 import AssignmentOutlined from '@material-ui/icons/AssignmentOutlined'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
-import YouTube from '@material-ui/icons/YouTube'
 import LiveTv from '@material-ui/icons/LiveTv'
 
 export default {
