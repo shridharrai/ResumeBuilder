@@ -14,7 +14,7 @@ export default {
     email: 'raishridhar619@gmail.com',
     address: 'New Delhi',
     phone: '9319751819',
-    cvLink:'https://github.com/shridharrai/Accessories-store/files/7785081/ShridharResume1.7.pdf',
+    cvLink:'https://github.com/shridharrai/ProjectBoard/files/7788022/ShridharResume2.pdf',
 
     socials: {
         Github: {

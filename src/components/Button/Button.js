@@ -5,7 +5,7 @@ import './Button.css'
 const CustomButton = ({ icon, text, cvLink }) => {
     return (
         <>
-            {cvLink ? (<a href={cvLink} download target="_blank">
+            {cvLink ? (<a href={cvLink} download="ShridharRai" target="_blank">
                 <Button
                     className="custom_btn"
                     endIcon={icon ? <div className="btn_icon_container">{icon}</div> : null}>
